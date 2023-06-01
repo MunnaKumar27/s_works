@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: "Poppins Semi-Bold";
+        src: url('../public/fonts/Poppins-SemiBold.ttf');
+    }
+    @font-face {
+        font-family: "Poppins Regular";
+        src: url('../public/fonts/Poppins-Regular.ttf');
+    }
+    @font-face {
+        font-family: "Poppins Medium";
+        src: url('../public/fonts/Poppins-Medium.ttf');
+    }
+}
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  margin-right: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-name {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
