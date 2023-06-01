@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const Carousel = ({ cards }) => {
+const Womens = ({ cards }) => {
   return (
     <div className="flex overflow-x-auto max-w-full">
       {cards.map((card, index) => (
@@ -24,5 +24,5 @@ const Carousel = ({ cards }) => {
   );
 };
 
-export default Carousel;
+export default Womens;
 
