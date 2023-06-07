@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Womens = ({ cards }) => {
@@ -7,7 +6,7 @@ const Womens = ({ cards }) => {
       {cards.map((card, index) => (
         <div
           key={index}
-          className="flex-shrink-0 w-40 h-42 bg-white rounded-lg shadow-md mx-4 p-4"
+          className="flex-shrink-0 w-40 h-42 bg-white rounded-lg  mx-4 p-4"
         >
           <img
             src={card.image}
@@ -25,4 +24,3 @@ const Womens = ({ cards }) => {
 };
 
 export default Womens;
-
